@@ -3,7 +3,7 @@ FROM phoronix/pts:latest
 RUN apt-get update &&\
    apt-get install php-sqlite3 -y
 
-ADD user-config.xml /etc/phoronix-test-suite.xml
+ADD ../user-config.xml /etc/phoronix-test-suite.xml
 
 
 

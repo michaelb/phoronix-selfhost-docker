@@ -1,10 +1,12 @@
 FROM phoronix/pts:latest
 
-# default host IP for main docker network on Linux
-ENV PHOROMATIC_SERVER_IP=172.17.0.1
+# default host name, supposed addressable from docker network
+ENV PHOROMATIC_SERVER_IP=phoromatic-server
 
 # default phoromatic port
 ENV PHOROMATIC_SERVER_PORT=9091
+
+ADD ../user-config.xml /etc/phoronix-test-suite.xml
 
 RUN apt-get update &&\
    apt-get install php-sqlite3 -y && \

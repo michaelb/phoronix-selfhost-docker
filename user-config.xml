@@ -16,7 +16,7 @@
       <ColoredConsole>AUTO</ColoredConsole>
     </General>
     <Modules>
-      <AutoLoadModules>toggle_screensaver, update_checker, perf_tips, ob_auto_compare, load_dynamic_result_viewer</AutoLoadModules>
+      <AutoLoadModules>ob_auto_compare, load_dynamic_result_viewer</AutoLoadModules>
     </Modules>
     <Installation>
       <RemoveDownloadFiles>FALSE</RemoveDownloadFiles>
