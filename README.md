@@ -33,3 +33,5 @@ $ docker run -d --name phoronix-client \
              abcd123  # <- server image ID
 
 ```
+
+NB: you can replace the phoromatic_server_ip host IP by the name 'phoromatic-server' if both dockers are on the same custom network
