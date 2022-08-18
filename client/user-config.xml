@@ -16,7 +16,7 @@
       <ColoredConsole>AUTO</ColoredConsole>
     </General>
     <Modules>
-      <AutoLoadModules>ob_auto_compare, load_dynamic_result_viewer</AutoLoadModules>
+      <AutoLoadModules>load_dynamic_result_viewer</AutoLoadModules>
     </Modules>
     <Installation>
       <RemoveDownloadFiles>FALSE</RemoveDownloadFiles>
@@ -33,7 +33,7 @@
       <RemoveTestInstallOnCompletion>FALSE</RemoveTestInstallOnCompletion>
       <ResultsDirectory>~/.phoronix-test-suite/test-results/</ResultsDirectory>
       <AlwaysUploadResultsToOpenBenchmarking>FALSE</AlwaysUploadResultsToOpenBenchmarking>
-      <AutoSortRunQueue>TRUE</AutoSortRunQueue>
+      <AutoSortRunQueue>FALSE</AutoSortRunQueue>
       <ShowPostRunStatistics>TRUE</ShowPostRunStatistics>
     </Testing>
     <TestResultValidation>
